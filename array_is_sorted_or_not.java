@@ -5,7 +5,7 @@ public class array_is_sorted_or_not {
         System.out.println("A java program to check whether the array is sorted or not.");
 
         boolean isSorted = true;         //initialise to true
-        int [] arr = {1,2,3, 4,4,5,5,34,67};
+        int [] arr = {1,2,3, 4,56,324,5,25,54,2};
         for(int i=0; i < arr.length-1; i++)
         {
             if(arr[i]>arr[i+1])
